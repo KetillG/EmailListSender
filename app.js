@@ -67,7 +67,8 @@ let sendMailTo = (emailtext, Name, Mail) => {
   transporter.sendMail(mailOptions, function(error, info){
     // If error occurs then retry
     if (error) {
-      console.log("error on: " + hiMail);
+      console.log("error on: " + Mail);
+      console.log(error);
       console.log("Retrying...");
       sendMailTo(emailtext, Name, Mail) 
     } else {

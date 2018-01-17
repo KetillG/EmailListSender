@@ -48,7 +48,7 @@ let createEmail = (mailInfo) => {
   emailtext += 'Kveðja, Ketill og vinir';
 
   // Sends the email 
-  sendMailTo(emailtext, Name, Mail);
+  if(Mail) sendMailTo(emailtext, Name, Mail);
 };
 
 // Simple way to add enter to a text string

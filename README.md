@@ -18,4 +18,4 @@ Set up the csv like the Example.csv is set up and splitting on ';' First column 
 
 #### Output
 - Message notifying you of the app state
-- Message for the status each sent email
+- Message for the status of each sent email
